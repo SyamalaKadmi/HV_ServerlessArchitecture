@@ -1,4 +1,4 @@
-# Restore EC2 Instance from Snapshot
+# Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
 
 ## Objective
 This demonstrates how to automate the clean up old files in an S3 bucket.
