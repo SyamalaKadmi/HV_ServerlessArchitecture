@@ -1,7 +1,7 @@
 # Restore EC2 Instance from Snapshot
 
 ## Objective
-This demonstrates how to automate the process of creating a new EC2 instance from the latest snapshot using a Lambda function
+This demonstrates how to automate the clean up old files in an S3 bucket.
 
 ---
 
