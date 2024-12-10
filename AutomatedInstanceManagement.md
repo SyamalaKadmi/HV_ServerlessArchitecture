@@ -44,8 +44,7 @@ This demonstrates how to automate the stopping and starting of EC2 instances bas
 
 2. **Write the Lambda Code**:
    Use the following Python code for the Lambda function:
-    ![IAM Role](Scripts/AutomatedInstanceManagement.py)
-   ```
+   ![AutomatedInstanceManagement.py](Scripts/AutomatedInstanceManagement.py)
 
 3. **Save and Deploy**:
    - Save the code and click **Deploy**.
