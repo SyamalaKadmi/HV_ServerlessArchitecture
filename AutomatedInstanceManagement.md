@@ -1,4 +1,4 @@
-# 1: Automated Instance Management Using AWS Lambda and Boto3
+# Automated Instance Management Using AWS Lambda and Boto3
 
 ## Objective
 This demonstrates how to automate the stopping and starting of EC2 instances based on their tags using **AWS Lambda** and **Boto3**, Amazon's SDK for Python.
