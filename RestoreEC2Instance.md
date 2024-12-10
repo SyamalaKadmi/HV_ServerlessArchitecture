@@ -51,7 +51,7 @@ Make sure snapshots and AMI's are available for performing the operation. If sna
 2. **Verify Changes**:
    - Go to the [EC2 Dashboard].
    - Check the newly created instance
-       ![Verification](images/RestoreSnapshot_Result.png)
+       ![Verification](images/RestoreSnapshot_result.png)
 
 
 
