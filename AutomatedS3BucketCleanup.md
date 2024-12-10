@@ -34,7 +34,7 @@ This demonstrates how to automate the clean up old files in an S3 bucket.
      ![Lambda](images/S3Cleanup_Lambda.png)
 
 3. Write the Lambda function using the following Boto3 script:
-   ![S3CleanUp.py](Scripts/S3CleanUp.py)
+   [S3CleanUp.py](Scripts/S3CleanUp.py)
 4. **Save and Deploy** the function.
 
 ---
