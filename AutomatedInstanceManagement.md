@@ -29,7 +29,7 @@ This demonstrates how to automate the stopping and starting of EC2 instances bas
 
 2. **Attach Permissions**:
    - Attach the **AmazonEC2FullAccess** policy to the role.
-     ![IAM Role](images/InstanceMgmt_IAM_Role)
+     ![IAM Role](images/InstanceMgmt_IAM_Role.png)
 
 ---
 
@@ -40,7 +40,7 @@ This demonstrates how to automate the stopping and starting of EC2 instances bas
      - **Author from scratch**.
      - Runtime: **Python 3.13**.
      - Assign the IAM role created earlier.
-       ![Lambda](images/InstanceMgmt_Lambda)
+       ![Lambda](images/InstanceMgmt_Lambda.png)
 
 2. **Write the Lambda Code**:
    Use the following Python code for the Lambda function:
@@ -56,13 +56,13 @@ This demonstrates how to automate the stopping and starting of EC2 instances bas
 1. **Manually Invoke the Function**:
    - In the Lambda Console, select the function and click **Test**.
    - Configure a test event (e.g., leave the default "Hello World" event).
-     ![Testing](images/InstanceMgmt_Test)
+     ![Testing](images/InstanceMgmt_Test.png)
 
 2. **Verify Changes**:
    - Go to the [EC2 Dashboard].
    - Check the state of the two instances:
      - The instance tagged `Auto-Stop` should transition to **stopped**.
      - The instance tagged `Auto-Start` should transition to **running**.
-       ![Verification](images/InstanceMgmt_EC2State)
+       ![Verification](images/InstanceMgmt_EC2State.png)
 
 
