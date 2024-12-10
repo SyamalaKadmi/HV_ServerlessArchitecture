@@ -5,7 +5,14 @@ This demonstrates how to automate the process of creating a new EC2 instance fro
 
 ---
 ## Prerequisites
-Make sure snapshots and AMI's are available for performing the operation. If snapshots are not present, spin a new EC2 instance --> take AMI & snapshot
+1. Make sure snapshots and AMI's are available for performing the operation. If snapshots are not present, spin a new EC2 instance --> take AMI & snapshot
+2. REGION name
+3. INSTANCE_TYPE = "t2.micro"  
+4. AMI_ID
+5. KEY_NAME
+6. SECURITY_GROUP_IDS
+7. SUBNET_ID
+8. VOLUME_ID
 
 -----
 
