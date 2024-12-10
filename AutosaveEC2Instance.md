@@ -5,7 +5,7 @@ This demonstrates how to automatically save its current state to an S3 bucket be
 
 ---
 ## Prerequisites
-1. Make sure snapshots and AMI's are available for performing the operation. If snapshots are not present, spin a new EC2 instance --> take AMI & snapshot
+1. Create new EC2 instance
 2. Instance ID
 3. bucket name where the current state of EC2 should be saved
 
